@@ -33,11 +33,12 @@
 		height: 210mm;
 		overflow: hidden;
 		position: relative;
-		background-image: url("../img/watermark1.jpg");
+		background-image: url("../img/bacground 1.jpg") !important;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
 
 
 	.certificate-wrapper .certificate-background .boxx {
@@ -66,7 +67,7 @@
 
 	.certificate-wrapper .certificate-background .rect1 {
 
-		top: 14mm;
+		top: 1mm;
 		left: 101mm;
 		position: absolute;
 		/* transform: rotate(90deg); */
@@ -162,7 +163,7 @@
 	.certificate-wrapper .certificate-content .title {
 		position: absolute;
 		left: -11mm;
-		top: -6mm;
+		top: -20mm;
 		right: 0mm;
 		font-size: 31pt;
 		color: white !important;
@@ -201,13 +202,13 @@
 	.certificate-wrapper .certificate-content .subtitle {
 		position: absolute;
 		left: -13mm;
-		top: 7mm;
+		top: -7mm;
 		right: 0mm;
-		color: white;
-		font-family: "Smooch Sans", sans-serif;
-		font-style: normal;
+		color: white !important;
+		font-family: "Baloo Bhaina 2", sans-serif;
+		
 		font-weight: 100;
-		font-size: 37pt;
+		font-size: 25pt;
 		text-align: center;
 
 	}
